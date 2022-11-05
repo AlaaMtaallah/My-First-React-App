@@ -2,19 +2,18 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Container } from "react-bootstrap";
+import Formular from "./Formular";
 
-class Layout extends React.Component {
-    render() {
+const Layout = () => {
         return(
             <>
                 <Header />
-                <Container className="my-5">
-                    <main>{this.props.children}</main>
-                </Container>               
+                    <Container className="my-5">
+                        <Formular></Formular>
+                    </Container>               
                 <Footer />
             </>
         )
     }
-}
 
 export default Layout;

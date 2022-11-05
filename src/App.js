@@ -1,12 +1,13 @@
 import React, { Component }  from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Form from './Form.js';
+import Formular from './components/Formular.js';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Layout />
     </div>
   );
 }
